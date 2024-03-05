@@ -1,33 +1,32 @@
 import MEDIA_QUERY from "../Common/media-query";
 import META_DATA_QUERY from "../Common/meta-data-query";
 
-export const SERVICE_QUERY = ` 
+export const PRICING_QUERY = ` 
   id
   name
   title
-  smallTitle
-  description
-  content
+  cost
   iconClass
-  introImage {
+  availableOption {
     total
-    results{
-      ${MEDIA_QUERY}
+    results {
+      id
     }
   }
+  bookingLink
 `;
 
-export const ALL_SERVICES_QUERY = `{ 
-    data: allServices
+export const ALL_PRICING_QUERY = `{ 
+    data: allPricing
     {
       __typename
       total
       results {
-        ${SERVICE_QUERY}
+        ${PRICING_QUERY}
       }
     }
   }
   `;
 
-export default ALL_SERVICES_QUERY
+export default ALL_PRICING_QUERY
 

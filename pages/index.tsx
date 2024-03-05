@@ -5,11 +5,13 @@ import Header from '../components/Common/header';
 import HeroBanner from '../components/Homepage/hero-banner';
 import AboutUs from '../components/Homepage/about-component';
 import CallAction from '../components/Homepage/emergency-component';
+import ServicesList from '../components/Homepage/services-listing';
+import PriceListing from '../components/Homepage/pricing-Listing';
 
 
 export async function getStaticProps({ preview = false}){
   const homepage = await getHomepage();
-  console.log(homepage)
+  //console.log(homepage)
   return{
       props: {homepage, preview},
       // Next.js will attempt to re-generate the page:
@@ -39,6 +41,10 @@ const Homepage = ({homepage}: Props) => {
       <HeroBanner introBanner={homepage.introBanner}/>
       <AboutUs whoWeAre={homepage.whoWeAre} />
       <CallAction emergencyCare={homepage.emergencyCare} />
+      <ServicesList servicesListing={homepage.servicesListing} />
+      <PriceListing 
+        pricingIntro={homepage.pricingIntro} 
+        allTaxonomy_mediplusPricingServices={homepage.allTaxonomy_mediplusPricingServices} />
     </>
   )
 }

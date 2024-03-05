@@ -4,6 +4,8 @@ import IntroBanner from "./IntroBanner"
 import PricingIntro from "./PricingIntro"
 import ServicesListing from "./ServicesListing"
 import WhoWeAre from "./WhoWeAre"
+import AllTaxonomy_Services from "./TaxonomyList"
+
 
 type Homepage = {
   introBanner: IntroBanner
@@ -12,6 +14,7 @@ type Homepage = {
   servicesListing: ServicesListing
   pricingIntro: PricingIntro
   header: Header
+  allTaxonomy_mediplusPricingServices: AllTaxonomy_Services
 }
 
 export default Homepage
