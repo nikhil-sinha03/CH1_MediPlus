@@ -1,0 +1,11 @@
+﻿id: test
+name:
+  en-US: test
+values:
+- id: t
+  name:
+    en-US: t
+- id: tt
+  name:
+    en-US: tt
+properties: 

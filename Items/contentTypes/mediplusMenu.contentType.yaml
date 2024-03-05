@@ -1,0 +1,45 @@
+﻿id: mediplusMenu
+name:
+  en-US: MediPlus_Menu
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: title
+  name:
+    en-US: Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: url
+  name:
+    en-US: Url
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Boolean
+  id: haveChild
+  name:
+    en-US: Have Child
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: Reference
+  id: childMenu
+  name:
+    en-US: Child Menu
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 

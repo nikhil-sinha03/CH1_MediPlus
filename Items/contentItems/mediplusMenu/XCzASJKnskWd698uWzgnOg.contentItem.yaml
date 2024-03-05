@@ -1,0 +1,15 @@
+﻿id: XCzASJKnskWd698uWzgnOg
+name: Home
+fields:
+  title:
+    value: Homepage
+    type: ShortText
+  url:
+    value: /
+    type: ShortText
+  haveChild:
+    value: false
+    type: Boolean
+  childMenu:
+    value: []
+    type: Reference

@@ -1,0 +1,27 @@
+﻿id: mediplusHeader
+name:
+  en-US: MediPlus_Header
+description:
+  en-US: ''
+fields:
+- type: Media
+  id: logo
+  name:
+    en-US: Logo
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+- type: Reference
+  id: menu
+  name:
+    en-US: Menu
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 

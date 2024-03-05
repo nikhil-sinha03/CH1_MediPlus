@@ -1,0 +1,12 @@
+﻿id: u7GR-1TLTE-AK7sGeJdrkg
+name: Twitter
+fields:
+  socialMediaName:
+    value: Twitter
+    type: ShortText
+  iconClassName:
+    value: fa fa-twitter
+    type: ShortText
+  mediaLink:
+    value: https://www.twitter.com/username
+    type: ShortText

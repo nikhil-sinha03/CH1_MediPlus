@@ -1,0 +1,102 @@
+﻿id: 9IHqlV8bZEC6kTo3F0WqnA
+name: MediPlus Footer
+fields:
+  aboutUs:
+    value: About Us
+    type: ShortText
+  footerDescription:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": "html"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>"
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  quickLinksText:
+    value: Quick Links
+    type: ShortText
+  openHoursText:
+    value: Open Hours
+    type: ShortText
+  openHoursDescription:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": "html"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>\n<ul class=\"time-sidual\">\n\t<li class=\"day\">Monday - Fridayp <span>8.00-20.00</span></li>\n\t<li class=\"day\">Saturday <span>9.00-18.30</span></li>\n\t<li class=\"day\">Monday - Thursday <span>9.00-15.00</span></li>\n</ul>"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          }
+        ]
+      }
+    type: RichText
+  newsletterText:
+    value: Newsletter
+    type: ShortText
+  newsletterDescription:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": "html"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>\n<form action=\"mail/mail.php\" method=\"get\" target=\"_blank\" class=\"newsletter-inner\">\n\t<input name=\"email\" placeholder=\"Email Address\" class=\"common-input\" required=\"\" type=\"email\">\n\t<button class=\"button\"><i class=\"icofont icofont-paper-plane\"></i></button>\n</form>"
+              }
+            ]
+          },
+          {
+            "type": "paragraph"
+          }
+        ]
+      }
+    type: RichText
+  socialLinks:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 2WR8hfATK0WKhc5Rdn2RXg
+    - type: Link
+      relatedType: Content
+      id: 81Xf7BCDcUavOftOFYEM2Q
+    - type: Link
+      relatedType: Content
+      id: u7GR-1TLTE-AK7sGeJdrkg
+    type: Reference
+  quickLinks:
+    value:
+    - type: Link
+      relatedType: Content
+      id: y64CANPfXkGHnMOio-Qa7w
+    - type: Link
+      relatedType: Content
+      id: XCzASJKnskWd698uWzgnOg
+    type: Reference

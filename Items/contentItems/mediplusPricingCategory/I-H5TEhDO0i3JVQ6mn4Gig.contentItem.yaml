@@ -1,0 +1,21 @@
+﻿id: I-H5TEhDO0i3JVQ6mn4Gig
+name: Pricing Standard
+fields:
+  title:
+    value: Standard
+    type: ShortText
+  cost:
+    value: 299
+    type: Integer
+  iconClass:
+    value: icofont icofont-file-midi
+    type: ShortText
+  bookingLink:
+    value: https://www.google.com
+    type: ShortText
+  availableOption:
+    value:
+    - id: initialAssessment
+    - id: doctorConsultations
+    - id: medications
+    type: Select

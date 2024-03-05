@@ -1,0 +1,12 @@
+﻿id: -MPM8OXU-US_6KpPa9jT6Q
+name: Heart Surgery Meta Data
+fields:
+  metaTitle:
+    value: Heart Surgery
+    type: ShortText
+  metaDescription:
+    value: Heart surgery, also known as cardiac surgery, is a medical procedure performed to treat various heart conditions. It is often recommended for individuals suffering from coronary artery disease, heart valve disorders, congenital heart defects, or other serious cardiac issues.
+    type: LongText
+  metaKeywords:
+    value: Heart surgery
+    type: ShortText

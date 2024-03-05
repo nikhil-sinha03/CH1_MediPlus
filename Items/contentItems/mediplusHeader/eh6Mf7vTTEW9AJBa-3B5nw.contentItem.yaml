@@ -1,0 +1,18 @@
+﻿id: eh6Mf7vTTEW9AJBa-3B5nw
+name: Header
+fields:
+  menu:
+    value:
+    - type: Link
+      relatedType: Content
+      id: XCzASJKnskWd698uWzgnOg
+    - type: Link
+      relatedType: Content
+      id: y64CANPfXkGHnMOio-Qa7w
+    type: Reference
+  logo:
+    value:
+    - type: Link
+      relatedType: Media
+      id: LsmTKEU61UW4AoSqSGsD2Q
+    type: Media

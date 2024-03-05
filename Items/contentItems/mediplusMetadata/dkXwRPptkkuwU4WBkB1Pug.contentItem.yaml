@@ -1,0 +1,12 @@
+﻿id: dkXwRPptkkuwU4WBkB1Pug
+name: General Treatment Meta Data
+fields:
+  metaTitle:
+    value: General Treatment
+    type: ShortText
+  metaDescription:
+    value: At MediPlus, we're dedicated to providing you with exceptional general treatment services to keep you and your family healthy. Our experienced healthcare professionals are here to address your medical needs and provide you with the care and attention you deserve.
+    type: LongText
+  metaKeywords:
+    value: general treatment services, family health
+    type: ShortText

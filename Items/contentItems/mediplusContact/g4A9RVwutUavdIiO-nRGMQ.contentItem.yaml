@@ -1,0 +1,30 @@
+﻿id: g4A9RVwutUavdIiO-nRGMQ
+name: Contact Us
+fields:
+  email:
+    value: info@company.com
+    type: ShortText
+  phone:
+    value: +(000)1234 56789
+    type: ShortText
+  addressLine1:
+    value: 2 Fire Brigade Road
+    type: ShortText
+  addressLine2:
+    value: Chittagoni, Lakshmipur
+    type: ShortText
+  openingHoursLine1:
+    value: 'Mon-Sat: 8am - 5pm'
+    type: ShortText
+  openingHoursLine2:
+    value: Sunday Closed
+    type: ShortText
+  googleMapLink:
+    value: https://www.google.com/maps/embed/v1/place?key=AIzaSyBv9yTHxF_-MaYWbFM_L_AYd8SQcYVYfFQ&q=HONG KONG CULTURAL CENTRE PIAZZA
+    type: ShortText
+  metaData:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 4j2_ZASz10WPu8GXZkBXww
+    type: Reference

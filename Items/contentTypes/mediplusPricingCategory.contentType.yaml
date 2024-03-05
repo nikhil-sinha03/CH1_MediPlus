@@ -1,0 +1,55 @@
+﻿id: mediplusPricingCategory
+name:
+  en-US: MediPlus_Pricing Category
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: title
+  name:
+    en-US: Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Integer
+  id: cost
+  name:
+    en-US: Cost
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: ShortText
+  id: iconClass
+  name:
+    en-US: Icon Class
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Select
+  id: availableOption
+  name:
+    en-US: Available Option
+  required: False
+  helpText:
+    en-US: ''
+  reference:
+    id: mediplusPricingServices
+    type: Link
+    relatedType: Taxonomy
+- type: ShortText
+  id: bookingLink
+  name:
+    en-US: Booking Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 

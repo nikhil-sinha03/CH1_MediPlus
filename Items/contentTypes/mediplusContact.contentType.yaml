@@ -1,0 +1,89 @@
+﻿id: mediplusContact
+name:
+  en-US: MediPlus_Contact
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: email
+  name:
+    en-US: 'Email '
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: phone
+  name:
+    en-US: Phone
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: addressLine1
+  name:
+    en-US: Address Line 1
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: addressLine2
+  name:
+    en-US: Address Line 2
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: openingHoursLine1
+  name:
+    en-US: Opening Hours Line 1
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: openingHoursLine2
+  name:
+    en-US: Opening Hours Line 2
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: googleMapLink
+  name:
+    en-US: Google Map Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Reference
+  id: metaData
+  name:
+    en-US: Meta Data
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+    referencetypes: 

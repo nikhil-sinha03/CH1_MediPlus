@@ -1,0 +1,12 @@
+﻿id: TlhW-Aw7wkW4cLZBLXln1A
+name: Home Meta Data
+fields:
+  metaTitle:
+    value: MediPlus - Doctor and Medical Services
+    type: ShortText
+  metaDescription:
+    value: MediPlus provides doctor and medical services 24/7
+    type: LongText
+  metaKeywords:
+    value: Doctor, Medical, Emergency, 24/7
+    type: ShortText

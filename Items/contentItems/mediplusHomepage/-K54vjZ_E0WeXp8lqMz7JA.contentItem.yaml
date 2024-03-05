@@ -1,0 +1,126 @@
+﻿id: -K54vjZ_E0WeXp8lqMz7JA
+name: Home
+fields:
+  introBannerTitle:
+    value: We Provide Medical Services That You Can Trust!
+    type: ShortText
+  introBannerDescription:
+    value: We believe that a healthy community is a thriving community.. We are dedicated to making a positive impact on your health and well-being.
+    type: LongText
+  introBannerLink:
+    value: https://www.google.com
+    type: ShortText
+  whoWeAreTitle:
+    value: We provide world class healthcare services and treatment
+    type: ShortText
+  whoWeAreDescription:
+    value: Your health is our priority, and we're here to provide you with the care, guidance, and medications you need
+    type: LongText
+  whoWeAreContent:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Your health is our Mission: At MediPlus, we believe that a healthy community is a thriving community. Our Doctor + Medicine Service embodies our mission to provide accessible, top-quality healthcare to individuals and families in our community. We are dedicated to making a positive impact on your health and well-being."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Experience the difference with our Doctor + Medicine Service."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  whoWeAreIntroVideoLink:
+    value: https://youtu.be/KmYm6zphh_A?si=CuHlg2rioKYu6QGe
+    type: ShortText
+  whoWeAreHighlightLeft:
+    value: >-
+      Experienced and highly skilled doctors
+
+      Convenience at Your Fingertips
+
+      Personalized Treatment Plans
+    type: LongText
+  whoWeAreHighlightRight:
+    value: >-
+      Comprehensive Medication Management
+
+      Patient-Centric Care
+
+      Cutting-Edge Equipment
+    type: LongText
+  emergencyCareTitle:
+    value: Do you need Emergency Medical Care? Call @ 1234 56789
+    type: ShortText
+  emergencyCareDescription:
+    value: Save our contact information, and rest easy knowing that when you call us. Your safety is our priority, and we're here to be your unwavering support when you need it most.
+    type: LongText
+  emergencyCareLink:
+    value: https://www.google.com/
+    type: ShortText
+  serviceListingIntro:
+    value: We Offer Different Services To Improve Your Health
+    type: ShortText
+  serviceListingDescription:
+    value: Our services are aligned with our patients needs
+    type: LongText
+  pricingIntro:
+    value: Buy A Subscription To Get Free Services During Your Visits
+    type: ShortText
+  pricingDescription:
+    value: No matter your needs, we have best treatments. Buying a subscription with us will cover all your medical needs
+    type: LongText
+  serviceslist:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 70i5BUQL8EWTCIM5uWgiLQ
+    - type: Link
+      relatedType: Content
+      id: eItXh4-oIke6GL3BYOnovQ
+    - type: Link
+      relatedType: Content
+      id: U0aJESKlvEu_pB05F1zvkA
+    type: Reference
+  pricingCategory:
+    value:
+    - type: Link
+      relatedType: Content
+      id: Z6PZZLI4T0qLYVD_mNatQg
+    - type: Link
+      relatedType: Content
+      id: I-H5TEhDO0i3JVQ6mn4Gig
+    - type: Link
+      relatedType: Content
+      id: 48ySSd4SbEO19B2I4ASxFg
+    type: Reference
+  metaData:
+    value:
+    - type: Link
+      relatedType: Content
+      id: TlhW-Aw7wkW4cLZBLXln1A
+    type: Reference
+  introBannerImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: Sh-5Pe9YNkeOu1U96Kp36g
+    type: Media
+  whoWeAreIntroVideoThumbnail:
+    value:
+    - type: Link
+      relatedType: Media
+      id: 1pKfKiONb0OCEep1pQVBgw
+    type: Media

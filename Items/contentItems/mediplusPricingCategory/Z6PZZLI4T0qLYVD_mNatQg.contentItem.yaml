@@ -1,0 +1,20 @@
+﻿id: Z6PZZLI4T0qLYVD_mNatQg
+name: Pricing Basic
+fields:
+  title:
+    value: Basic
+    type: ShortText
+  cost:
+    value: 199
+    type: Integer
+  iconClass:
+    value: icofont icofont-test-bulb
+    type: ShortText
+  bookingLink:
+    value: https://www.google.com
+    type: ShortText
+  availableOption:
+    value:
+    - id: initialAssessment
+    - id: doctorConsultations
+    type: Select

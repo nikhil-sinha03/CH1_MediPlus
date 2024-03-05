@@ -1,0 +1,223 @@
+﻿id: mediplusHomepage
+name:
+  en-US: MediPlus_Homepage
+description:
+  en-US: ''
+fields:
+- type: Media
+  id: introBannerImage
+  name:
+    en-US: Intro Banner Image
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+- type: ShortText
+  id: introBannerTitle
+  name:
+    en-US: Intro Banner Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: introBannerDescription
+  name:
+    en-US: Intro Banner Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: introBannerLink
+  name:
+    en-US: Intro Banner Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: whoWeAreTitle
+  name:
+    en-US: Who We Are Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: whoWeAreDescription
+  name:
+    en-US: Who We Are Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: RichText
+  id: whoWeAreContent
+  name:
+    en-US: Who We Are Content
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: ShortText
+  id: whoWeAreIntroVideoLink
+  name:
+    en-US: Who We Are Intro Video Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Media
+  id: whoWeAreIntroVideoThumbnail
+  name:
+    en-US: Who We Are Intro Video Thumbnail
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+- type: LongText
+  id: whoWeAreHighlightLeft
+  name:
+    en-US: Who We Are Highlight Left
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: whoWeAreHighlightRight
+  name:
+    en-US: Who We Are Highlight Right
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: emergencyCareTitle
+  name:
+    en-US: Emergency Care Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: emergencyCareDescription
+  name:
+    en-US: Emergency Care Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: emergencyCareLink
+  name:
+    en-US: Emergency Care Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: serviceListingIntro
+  name:
+    en-US: Service Listing Intro
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: serviceListingDescription
+  name:
+    en-US: Service Listing Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Reference
+  id: serviceslist
+  name:
+    en-US: ServicesList
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 
+- type: ShortText
+  id: pricingIntro
+  name:
+    en-US: Pricing Intro
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: pricingDescription
+  name:
+    en-US: Pricing Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Reference
+  id: pricingCategory
+  name:
+    en-US: Pricing Category
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 
+- type: Reference
+  id: metaData
+  name:
+    en-US: Meta Data
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+    referencetypes: 

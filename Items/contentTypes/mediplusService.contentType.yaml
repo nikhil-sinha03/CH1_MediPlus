@@ -1,0 +1,90 @@
+﻿id: mediplusService
+name:
+  en-US: MediPlus_Service
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: title
+  name:
+    en-US: Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: smallTitle
+  name:
+    en-US: Small Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: description
+  name:
+    en-US: Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: RichText
+  id: content
+  name:
+    en-US: Content
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: Media
+  id: introImage
+  name:
+    en-US: Intro Image
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+- type: ShortText
+  id: iconClass
+  name:
+    en-US: Icon Class
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Reference
+  id: socialMediaList
+  name:
+    en-US: Social Media List
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 
+- type: Reference
+  id: metaData
+  name:
+    en-US: Meta Data
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit:
+      min: 
+      max: 1
+    referencetypes: 

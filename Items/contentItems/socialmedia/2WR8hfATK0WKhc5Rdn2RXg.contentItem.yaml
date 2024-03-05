@@ -1,0 +1,12 @@
+﻿id: 2WR8hfATK0WKhc5Rdn2RXg
+name: Facebook
+fields:
+  socialMediaName:
+    value: Facebook
+    type: ShortText
+  iconClassName:
+    value: fa fa-facebook-official
+    type: ShortText
+  mediaLink:
+    value: https://www.facebook.com/@username
+    type: ShortText

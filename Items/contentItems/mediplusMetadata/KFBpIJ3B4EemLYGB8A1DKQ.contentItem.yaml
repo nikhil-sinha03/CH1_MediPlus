@@ -1,0 +1,12 @@
+﻿id: KFBpIJ3B4EemLYGB8A1DKQ
+name: Services Listing Meta Data
+fields:
+  metaTitle:
+    value: Services
+    type: ShortText
+  metaDescription:
+    value: Services
+    type: LongText
+  metaKeywords:
+    value: Services
+    type: ShortText

@@ -1,0 +1,23 @@
+﻿id: mediplusPricingServices
+name:
+  en-US: MediPlus_Pricing Services
+values:
+- id: initialAssessment
+  name:
+    en-US: Initial Assessment
+- id: doctorConsultations
+  name:
+    en-US: Doctor Consultations
+- id: dietAndNutrition
+  name:
+    en-US: Diet And Nutrition
+- id: diagnosisTests
+  name:
+    en-US: Diagnosis Tests
+- id: medications
+  name:
+    en-US: Medications
+- id: treatmentPlan
+  name:
+    en-US: Treatment Plan
+properties: 

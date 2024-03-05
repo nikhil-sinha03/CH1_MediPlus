@@ -1,0 +1,21 @@
+﻿id: y64CANPfXkGHnMOio-Qa7w
+name: Services
+fields:
+  title:
+    value: Services
+    type: ShortText
+  url:
+    value: /services/general-treatment
+    type: ShortText
+  haveChild:
+    value: true
+    type: Boolean
+  childMenu:
+    value:
+    - type: Link
+      relatedType: Content
+      id: RXNouZa6FkaEAwsvZ5Pj4A
+    - type: Link
+      relatedType: Content
+      id: ojvXbCf4n0y1ZrAnoMiOSw
+    type: Reference

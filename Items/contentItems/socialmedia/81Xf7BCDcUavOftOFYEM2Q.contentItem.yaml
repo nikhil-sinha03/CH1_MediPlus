@@ -1,0 +1,12 @@
+﻿id: 81Xf7BCDcUavOftOFYEM2Q
+name: Linkedin
+fields:
+  socialMediaName:
+    value: Linkedin
+    type: ShortText
+  iconClassName:
+    value: fa fa-linkedin
+    type: ShortText
+  mediaLink:
+    value: https://www.linkedin.com/in/@username
+    type: ShortText

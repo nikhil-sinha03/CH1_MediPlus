@@ -1,0 +1,24 @@
+﻿id: 48ySSd4SbEO19B2I4ASxFg
+name: Pricing Premium
+fields:
+  title:
+    value: Premium
+    type: ShortText
+  cost:
+    value: 399
+    type: Integer
+  iconClass:
+    value: icofont icofont-briefcase-2
+    type: ShortText
+  bookingLink:
+    value: https://www.google.com
+    type: ShortText
+  availableOption:
+    value:
+    - id: initialAssessment
+    - id: doctorConsultations
+    - id: medications
+    - id: treatmentPlan
+    - id: diagnosisTests
+    - id: dietAndNutrition
+    type: Select

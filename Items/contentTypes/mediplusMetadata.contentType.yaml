@@ -1,0 +1,36 @@
+﻿id: mediplusMetadata
+name:
+  en-US: MediPlus_MetaData
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: metaTitle
+  name:
+    en-US: Meta Title
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: LongText
+  id: metaDescription
+  name:
+    en-US: Meta Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: metaKeywords
+  name:
+    en-US: Meta Keywords
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 

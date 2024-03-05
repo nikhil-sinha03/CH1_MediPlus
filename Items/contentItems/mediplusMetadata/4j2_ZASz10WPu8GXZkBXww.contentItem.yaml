@@ -1,0 +1,12 @@
+﻿id: 4j2_ZASz10WPu8GXZkBXww
+name: Contact Us Meta Data
+fields:
+  metaTitle:
+    value: Contact Us
+    type: ShortText
+  metaDescription:
+    value: Contact mediplus
+    type: LongText
+  metaKeywords:
+    value: MediPlus, Contact
+    type: ShortText

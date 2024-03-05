@@ -1,0 +1,36 @@
+﻿id: socialmedia
+name:
+  en-US: SocialMedia
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: socialMediaName
+  name:
+    en-US: Social Media Name
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: iconClassName
+  name:
+    en-US: Icon Class Name
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: ShortText
+  id: mediaLink
+  name:
+    en-US: Media Link
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 

@@ -1,0 +1,15 @@
+﻿id: RXNouZa6FkaEAwsvZ5Pj4A
+name: General Treatment
+fields:
+  title:
+    value: General Treatment
+    type: ShortText
+  url:
+    value: /services/general-treatment
+    type: ShortText
+  haveChild:
+    value: false
+    type: Boolean
+  childMenu:
+    value: []
+    type: Reference

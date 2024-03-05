@@ -1,0 +1,92 @@
+﻿id: mediplusFooter
+name:
+  en-US: MediPlus_Footer
+description:
+  en-US: ''
+fields:
+- type: ShortText
+  id: aboutUs
+  name:
+    en-US: About us
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: RichText
+  id: footerDescription
+  name:
+    en-US: Footer Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: Reference
+  id: socialLinks
+  name:
+    en-US: Social Links
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 
+- type: ShortText
+  id: quickLinksText
+  name:
+    en-US: Quick Links Text
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: Reference
+  id: quickLinks
+  name:
+    en-US: Quick Links
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    limit: 
+    referencetypes: 
+- type: ShortText
+  id: openHoursText
+  name:
+    en-US: Open Hours Text
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: RichText
+  id: openHoursDescription
+  name:
+    en-US: Open Hours Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+- type: ShortText
+  id: newsletterText
+  name:
+    en-US: Newsletter Text
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
+  rules:
+    length: 
+- type: RichText
+  id: newsletterDescription
+  name:
+    en-US: Newsletter Description
+  required: False
+  helpText:
+    en-US: ''
+  reference: 
