@@ -11,20 +11,20 @@ export async function getAllServices(preview: boolean): Promise<ServiceDetails[]
 export async function getServiceById(id: string): Promise<ServiceDetails> {
 
   const queryservice = `{ 
-    data: serviceData(id: "${id}")
+    data: mediplusService(id: "${id}")
     {
         ${SERVICE_QUERY}
     }
   }`;
   
   const data = await fetchAPI(queryservice);
-  console.log(data);
-  return data.data.data;
+  //console.log(data);
+  return data.data;
 }
 
 export async function getAllserviceWithIds(): Promise<ServiceDetails[]> {
     const  query = `{ 
-      data: allService
+      data: allMediplusService
       {
         __typename
         total
@@ -35,6 +35,7 @@ export async function getAllserviceWithIds(): Promise<ServiceDetails[]> {
     }`;
   
     const data = await fetchAPI(query);
+    //console.log(data.data);
      return extractPosts(data.data);
   }
 

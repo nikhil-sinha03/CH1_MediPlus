@@ -19,7 +19,7 @@ const ServicesList = (props: ServicesListing): JSX.Element => {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="single-service">
                                 <i className={service.iconClass}></i>
-                                <h4><a href={`/service/${encodeURIComponent(service.id)}`}>{service.name}</a></h4>
+                                <h4><a href={`/services/${encodeURIComponent(service.id)}`}>{service.name}</a></h4>
                                 <p>{service.description}</p>
                             </div>
                         </div>

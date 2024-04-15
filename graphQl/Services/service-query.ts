@@ -18,7 +18,7 @@ export const SERVICE_QUERY = `
 `;
 
 export const ALL_SERVICES_QUERY = `{ 
-    data: allServices
+    data: allMediplusService
     {
       __typename
       total

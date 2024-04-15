@@ -14,7 +14,7 @@ const CallAction = (props:EmergencyCare): JSX.Element => {
                 {props.emergencyCare.emergencyCareDescription}
               </p>
               <div className="button">
-                <a className="btn" href={props.emergencyCare.emergencyCareLink}>
+                <a className="btn" href={`/contact`}>
                   Contact Now
                 </a>
               </div>
